@@ -24,6 +24,7 @@ foreach ( $matchup as $hole => $score) {
 						}?>
 					</div>
 					<div class="holescore">
+						
 						<?php // check if eagle, birdie, par, bogey, double bogey, add class
 						if (!empty($score)) {
 							if ($course[0]->$par-2 == $score) {
@@ -44,6 +45,12 @@ foreach ( $matchup as $hole => $score) {
 						} else {
 							echo "-";
 						}?>
+						
+						<?php $fullgamescore += $score; //add game score (last line); problem -- need to reset for each new player ?>
+						<div class="holescore"> 
+							<?php echo $fullgamescore; ?>
+						</div>
+						
 					</div>
 				<?php } else { ?>
 				<div class="holescore">
