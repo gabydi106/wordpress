@@ -1,0 +1,154 @@
+/* Admin Styles */
+/* line 4, ../scss/admin-styles.scss */
+#golf_match_info label {
+  width: 25%;
+  float: left;
+  padding-top: 6px;
+  clear: left;
+}
+/* line 10, ../scss/admin-styles.scss */
+#golf_match_info input {
+  width: 35%;
+}
+/* line 13, ../scss/admin-styles.scss */
+#golf_match_info #pin {
+  width: 100px;
+}
+
+/* line 18, ../scss/admin-styles.scss */
+#golf_course_info label {
+  width: 25%;
+  float: left;
+  padding-top: 6px;
+  clear: left;
+}
+/* line 24, ../scss/admin-styles.scss */
+#golf_course_info input {
+  width: 35%;
+}
+/* line 27, ../scss/admin-styles.scss */
+#golf_course_info #measurementyards, #golf_course_info #measurementmetres, #golf_course_info #handicaphandicap, #golf_course_info #handicapstrokeindex, #golf_course_info #handicapnone {
+  width: auto;
+}
+/* line 31, ../scss/admin-styles.scss */
+#golf_course_info label[for=measurementyards], #golf_course_info label[for=measurementmetres] {
+  float: none;
+  margin: 3px 20px 0 0;
+}
+/* line 35, ../scss/admin-styles.scss */
+#golf_course_info label[for=handicaphandicap], #golf_course_info label[for=handicapstrokeindex], #golf_course_info label[for=handicapnone] {
+  float: none;
+  margin: 10px 20px 0 0;
+}
+/* line 40, ../scss/admin-styles.scss */
+#golf_course_info #handicap-wrapper {
+  padding-top: 10px;
+}
+/* line 43, ../scss/admin-styles.scss */
+#golf_course_info #handicap-wrapper label:first-child {
+  margin-top: -3px;
+}
+
+/* line 49, ../scss/admin-styles.scss */
+#golfer_info label {
+  width: 25%;
+  float: left;
+  padding-top: 6px;
+  clear: left;
+}
+/* line 55, ../scss/admin-styles.scss */
+#golfer_info input[type="number"] {
+  width: 50px;
+}
+/* line 58, ../scss/admin-styles.scss */
+#golfer_info textarea {
+  width: 35%;
+}
+
+/* line 62, ../scss/admin-styles.scss */
+.multi-field-wrapper {
+  clear: both;
+}
+
+/* line 66, ../scss/admin-styles.scss */
+#sponsors p {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0 15px;
+}
+/* line 69, ../scss/admin-styles.scss */
+#sponsors p img {
+  margin: 10px 0 0;
+}
+/* line 73, ../scss/admin-styles.scss */
+#sponsors .sponsor-title {
+  width: 25%;
+  float: left;
+}
+
+/* line 78, ../scss/admin-styles.scss */
+#golf_course_holes {
+  float: left;
+  width: 100%;
+}
+
+/* line 83, ../scss/admin-styles.scss */
+#teeinfo label.teename {
+  width: 15%;
+  float: left;
+  padding-top: 6px;
+}
+/* line 88, ../scss/admin-styles.scss */
+#teeinfo input.teename {
+  width: 35%;
+}
+
+/* line 92, ../scss/admin-styles.scss */
+#teeinputs {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+/* line 96, ../scss/admin-styles.scss */
+#teeinputs .hole {
+  width: 70px;
+  float: left;
+  margin: 0 5px 30px 0;
+  text-align: center;
+}
+/* line 101, ../scss/admin-styles.scss */
+#teeinputs .hole label {
+  font-size: 10px;
+}
+/* line 105, ../scss/admin-styles.scss */
+#teeinputs .hole-yards {
+  width: 50px;
+}
+/* line 108, ../scss/admin-styles.scss */
+#teeinputs .hole-par {
+  width: 50px;
+}
+/* line 111, ../scss/admin-styles.scss */
+#teeinputs .hole-handicap {
+  width: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* line 117, ../scss/admin-styles.scss */
+  #golf_match_info label, #golf_course_info label, #golfer_info label {
+    width: 40%;
+  }
+  /* line 120, ../scss/admin-styles.scss */
+  #golf_match_info input, #golf_course_info input, #golfer_info input {
+    width: 55%;
+  }
+}
+/* line 125, ../scss/admin-styles.scss */
+#adminmenu #menu-posts-tournament div.wp-menu-image:before {
+  content: "\f227";
+}
+
+/* line 128, ../scss/admin-styles.scss */
+.golfround .winpoints {
+  min-width: 15%;
+  display: inline-block;
+}

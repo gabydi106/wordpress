@@ -1,0 +1,76 @@
+/* Admin Styles */
+#adminmenu #menu-posts-tournament div.wp-menu-image:before { content: "\f227"; }
+
+.golfround .winpoints {
+	min-width: 15%;
+	display: inline-block;
+}
+
+#golf_match_info label, #golf_course_info label {
+	width: 25%;
+	float: left;
+	padding-top: 6px;
+	clear: left;
+}
+
+#golf_match_info input, #golf_course_info input {
+	width: 35%;
+}
+
+#golf_match_info #pin {
+	width: 100px;
+}
+
+#sponsors p {
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0 15px 0;
+}
+#sponsors .sponsor-title {
+	width: 25%;
+	float: left;
+}
+#sponsors p img {
+	margin: 10px 0 0 0;
+}
+
+/*** GOLF COURSE ADMIN ***/
+#golf_course_holes {
+	float: left;
+	width: 100%;
+}
+#teeinfo label.teename {
+	width: 15%;
+	float: left;
+	padding-top: 6px;
+}
+#teeinfo input.teename {
+	width: 35%;
+}
+#teeinputs {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+#teeinputs .hole {
+	width: 70px;
+	float: left;
+	margin: 0 5px 30px 0;
+	text-align: center;
+}
+#teeinputs .hole label {
+	font-size: 10px;	
+}
+#teeinputs .hole-yards, #teeinputs .hole-par {
+	width: 50px;
+}
+
+
+@media only screen and (max-width : 1200px) {
+#golf_match_info label, #golf_course_info label {
+	width: 40%;
+}
+
+#golf_match_info input, #golf_course_info input {
+	width: 55%;
+}
+}

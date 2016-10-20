@@ -1,0 +1,333 @@
+/* Main Golf Deputy Styles */
+.single-tournament .entry-content {
+	margin-bottom: 20px;	
+}
+#pinerror {
+	float: left;
+	width: 100%;
+	background-color: #fea0a0;
+	padding: 10px;
+}
+#tournament-title {
+	width: 100%;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	padding: 5px 0;
+}
+
+.multi-field {
+	width: 100%;
+	margin: 5px 0;
+}
+
+#roundselect {
+	font-size: 16px;
+	padding: 5px;
+	margin: 10px 0;	
+}
+.golfround input, .matchupsave input, #holenumber {
+	min-width: 25px;
+	min-height: 25px;
+	margin: 0px 1% 15px 0;
+	vertical-align: text-top;
+}
+#holenumber {
+	min-width: 50px;
+	font-size: 16px;
+	margin-top: -5px;
+}
+.golfround input {
+	margin-top: -5px;
+}
+.golfround label, .matchupsave label {
+	margin-right: 5%;
+}
+.teamname {
+	font-weight: bold;
+}
+.versus {
+	font-style: italic;
+}
+#matchupselect {
+	position: relative;	
+}
+#matchupselect #pass {
+	font-size: 16px;
+	padding: 5px;
+	margin-left: 5px;
+}
+#matchupselect #submit {
+	font-size: 16px;
+	padding: 10px;
+	margin: 10px 0;
+}
+#watchleaderboard {
+	padding: 5px 22px;
+}
+
+.golfround {
+	display: none;
+	margin: 0;
+}
+#round1 {display: block;}
+
+
+/* Matchup Saving Page */
+.sponsorimage {
+	margin: 0 0 10px 0;
+	max-width: 100%;
+	height: auto;
+}
+
+.matchupsave {
+	padding: 15px 10px 10px 15px;
+	border-top: 3px solid #BBB;
+}
+
+.matchupsave:nth-child(even) {
+	background-color: #eee;
+}
+.matchupsave .players {
+	width: 100%;
+	float: left;
+	margin: 0 0 20px 0;
+}
+#savehole {
+	padding: 10px 20px;
+	font-size: 16px;
+	margin: 10px 0 0 15px;
+}
+#stopscoring {
+	margin-left: 15px;
+}
+.closedmatchup {
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 15px 10px 10px;
+	margin-left: -15px;
+}
+input.reopen {
+	width: auto;
+	font-size: 12px;
+	height: auto;
+	margin: 0 1% 0 0;
+	padding: 5px;
+}
+.small {font-size: 10px}
+#resetplayers {
+	margin: 20px 0 0 0;
+	border-bottom: 3px solid #BBB;
+	padding-bottom: 20px;
+}
+
+/* Leaderboard CSS */
+#leaderboard {
+	width: 99%;
+	float: left;
+	margin-bottom: 40px;
+	font-size: 14px;
+}
+#leaderboardheader {
+	float: left;
+	width: 100%;
+	margin-bottom: -10px;
+	margin-top: 5px;
+	text-align: center;
+}
+#leaderboard #roundselect {
+	width: auto;
+}
+#leaderboard .golfround {
+	width: 100%;
+	border: 1px solid #bbb;
+	float: left;
+	display: block;
+}
+#leaderboard .golfround .multi-field {
+	width: 100%;
+	clear: left;
+	border-bottom: 1px solid #bbb;
+	float: left;
+	margin: 0;
+}
+#leaderboard .golfround .multi-field:last-child {
+	border-bottom: none;
+}
+#leaderboard .golfround .multi-field:nth-child(odd) {
+	background-color: #ccc;
+}
+#leaderboard .golfround .multi-field:nth-child(even) {
+	background-color: #eee;
+}
+#leaderboard .golfround .card, #leaderboard .golfround .players, #leaderboardheader .card, #leaderboardheader .players {
+	float: left;
+	padding: 10px 1%;
+}
+#leaderboard .golfround .currentscore {
+	width: 50%;
+	float: left;
+}
+#leaderboard.strokeboard .golfround .currentscore {
+	float: right;
+	padding: 15px 10px;
+	width: 15%;
+	text-align: center;
+}
+#leaderboard .golfround .players {
+	padding-top: 15px;
+}
+#leaderboard .golfround .card input {
+	margin: 0;
+}
+#leaderboard.strokeboard .golfround .players {
+	width: 23%;
+}
+#leaderboard #totalscores {
+	width: 100%;
+}
+#leaderboard #totalscores span {
+	width: 50%;
+	float: left;
+	padding: 1% 0;
+}
+#leaderboard .scorecardbtn {
+	width: auto;
+	padding: 0px 10px;
+}
+#leaderboard .playername {
+	width: 25%;
+	float: left;
+}
+#leaderboard.strokeboard .players .playername {
+	width: 46%;
+	padding: 0 2%;
+	float: left;
+}
+#leaderboard #refresh {
+	background: url('../images/refresh.png') center top no-repeat;
+	padding: 25px 0 0 0;
+	float: left;
+	font-size: 12px;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+#leaderboard #refresh:hover {
+	cursor: pointer;
+}
+#leaderboard h4.card {
+	margin: 20px 0 5px 0;
+	float: left;
+}
+#leaderboard .headers .currentscore {
+	margin: 0;
+	padding: 5px 1%;
+	font-weight: bold;
+}
+#leaderboard-wrapper {
+	width: 100%;
+	float: left;
+}
+#leaderboard-wrapper h2 {
+	text-align: center;
+	margin-top: 10px;
+	width: 99%;
+}
+
+/* Scorecard */
+#scorecard {
+	width: 70%;
+	border: 1px solid #bbb;
+	padding: 10px;
+	float: left;
+}
+#scorecard #names {
+	width: 100%;
+	margin-bottom: 10px;
+}
+#scorecard .holenumber, #scorecard .holescore {
+	float: left;
+	border-top: 1px solid #ddd;
+	padding: 2%;
+}
+	
+#scorecard .holenumber {
+	width: 20%;
+	border-right: 1px solid #ddd;
+}
+#scorecard .holescore {
+	width: 70%;
+}
+input#backbutton {
+	padding: 10px;
+	font-size: 16px;
+	float: left;
+	margin: 10px 0;
+	clear: both;
+}
+
+/* Stroke Play, +/- buttons */
+.stroke-quantity {
+    min-width:150px;
+    height:42px;
+	clear: both;
+}
+.stroke-minus {
+    width:40px;
+    height:40px;
+    float:left;
+    text-align:center;
+	background: url('../images/minus.png') center center no-repeat;
+}
+.stroke-input input, .stroke-input input[type="text"] {
+    width:40px;
+    height:40px;
+    border:1px solid #e1e1e1;
+    float:left;
+	text-align: center;
+	margin: 0 5px;
+	font-size: 16px;
+}
+.stroke-plus {
+    width:40px;
+    height:40px;
+    float:left;
+    text-align:center;
+	background: url('../images/plus.png') center center no-repeat;
+}
+.stroke-minus a, .stroke-plus a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+.stroke-minus a:hover, .stroke-plus a:hover {
+	cursor: pointer;
+}
+
+@media only screen and (max-width : 768px) {
+	#scorecard {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	#leaderboard {
+		font-size: 12px;
+	}
+	#leaderboard .golfround .currentscore {
+		padding: 15px 5px;
+	}
+	#leaderboard .golfround .headers .currentscore {
+		padding: 5px 1%;
+	}
+	#leaderboard.strokeboard .golfround .headers .currentscore {
+		padding: 5px;
+	}
+	#leaderboard .golfround .card input {
+		font-size: 10px;
+		padding: 0 4px;
+	}
+}

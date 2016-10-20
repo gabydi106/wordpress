@@ -1,0 +1,679 @@
+#pinerror {
+  float: left;
+  width: 100%;
+  background-color: #fea0a0;
+  padding: 10px;
+}
+#tournament-title {
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  padding: 5px 0;
+}
+.multi-field {
+  width: 100%;
+  margin: 5px 0;
+}
+#roundselect {
+  font-size: 16px;
+  padding: 5px;
+  margin: 10px 0;
+}
+.golfround {
+  display: none;
+  margin: 0;
+  input {
+    min-width: 25px;
+    min-height: 25px;
+    margin: 0 1% 15px 0;
+    vertical-align: text-top;
+    margin-top: -5px;
+  }
+  label {
+    margin-right: 5%;
+  }
+}
+.single-golfcourse {
+  .hole {
+    width: 10%;
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+
+    &:last-child, &:nth-child(10) {
+      border-right: 1px solid #ccc;
+    }
+    span {
+      line-height: 32px;
+      float: left;
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+    }
+  }
+  .hole.labels {
+    font-size: 10px;
+    vertical-align: middle;
+  }
+}
+.matchupsave {
+  padding: 15px 10px 10px 15px;
+  border-top: 3px solid #bbb;
+  input {
+    min-width: 25px;
+    min-height: 25px;
+    margin: 0 1% 15px 0;
+    vertical-align: text-top;
+  }
+  label {
+    margin-right: 5%;
+  }
+  &:nth-child(even) {
+    background-color: #eee;
+  }
+  .players {
+    width: 100%;
+    float: left;
+    margin: 0 0 20px 0;
+  }
+  .grossscore {
+    font-size: 10px;
+    padding: 5px 0;
+  }
+  .netscore {
+    font-size: 10px;
+    font-weight: bold;
+    clear: both;
+    padding: 10px 0 0 0;
+
+    input {
+        background: none;
+        border: none;
+        margin: 0;
+        vertical-align: inherit;
+        font-size: 10px;
+        box-shadow: none;
+        width: 50px;
+    }
+  }
+}
+#holenumber {
+  min-width: 25px;
+  min-height: 25px;
+  margin: 0 1% 15px 0;
+  vertical-align: text-top;
+  min-width: 50px;
+  font-size: 16px;
+  margin-top: -5px;
+}
+.teamname {
+  font-weight: bold;
+}
+.versus {
+  font-style: italic;
+}
+#matchupselect {
+  position: relative;
+  #pass {
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 5px;
+  }
+  #submit {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+}
+#watchleaderboard {
+  font-size: 16px;
+  padding: 10px;
+}
+#round1 {
+  display: block;
+}
+.sponsorimage {
+  margin: 0 0 10px 0;
+  max-width: 100%;
+  height: auto;
+}
+#savehole {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px 0 0 15px;
+}
+#stopscoring {
+  margin-left: 15px;
+}
+.closedmatchup {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 15px 10px 10px;
+  margin-left: -15px;
+}
+input {
+  &.reopen {
+    width: auto;
+    font-size: 12px;
+    height: auto;
+    margin: 0 1% 0 0;
+    padding: 5px;
+  }
+  &#backbutton {
+    padding: 10px;
+    font-size: 16px;
+    float: left;
+    margin: 10px 0;
+    clear: both;
+  }
+}
+.small {
+  font-size: 10px;
+}
+#resetplayers {
+  margin: 20px 0 0;
+  border-bottom: 3px solid #bbb;
+  padding-bottom: 20px;
+}
+#leaderboard {
+  width: 99%;
+  float: left;
+  margin-bottom: 40px;
+  font-size: 14px;
+
+  .scorecard {
+    display: none;
+    width: 100%;
+    //padding: 10px;
+    float: left;
+    #names {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .holecard {
+      width: 10%;
+      float: left;
+      text-align: center;
+      margin-bottom: 10px;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+
+      &.header {
+        clear: both;
+      }
+    }
+    .holenumber {
+      float: left;
+      border-top: 1px solid #ddd;
+      padding: 5% 2%;
+      width: 100%;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      background-color: #ddd;
+    }
+    .holepar {
+      float: left;
+      border-right: 1px solid #ddd;
+      padding: 5% 2%;
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+      background-color: #efefef;
+    }
+    .holescore {
+      float: left;
+      padding: 5% 2%;
+      width: 100%;
+      border-right: 1px solid #ddd;
+
+      .eagle {
+        border-radius: 50%;
+        border: 1px solid #999;
+        padding: 0 5px;
+        position: relative;
+
+        &:before {
+          content: '';
+          width: 100%;
+          position: absolute;
+          left: -3px;
+          top: -3px;
+          border-radius: 50%;
+          border: 1px solid#999;
+          padding: 2px;
+          height: 100%;
+        }
+      }
+
+      .birdie {
+        border-radius: 50%;
+        border: 1px solid #999;
+        padding: 0 5px;
+      }
+
+      .bogey {
+        border: 1px solid #999;
+        padding: 0 5px;
+      }
+
+      .doublebogey {
+        border: 1px solid #999;
+        padding: 0 5px;
+        position: relative;
+
+        &:before {
+          content: '';
+          width: 100%;
+          position: absolute;
+          left: -3px;
+          top: -3px;
+          border: 1px solid #999;
+          padding: 2px;
+          height: 100%;
+        }
+      }
+
+    }
+  }
+
+  #roundselect {
+    width: auto;
+  }
+
+  .golfround {
+    width: 100%;
+    border: 1px solid #bbb;
+    float: left;
+    display: block;
+
+    .multi-field {
+      width: 100%;
+      clear: left;
+      border-bottom: 1px solid #bbb;
+      float: left;
+      margin: 0;
+      overflow: hidden;  
+      display: table-cell;    
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &:nth-child(odd) {
+        //background-color: #ccc;
+      }
+
+      &:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      &.active {
+        -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+        box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+
+        .players {
+          font-weight: bold;
+
+          .currentscore {
+            box-shadow: none;
+            border-left: 1px solid #bbb;
+            border-right: 1px solid #bbb;
+          }
+        }
+      }
+    }
+
+    .players {
+      float: left;
+      padding: 0px 1%;
+      width: 98%;
+      line-height: 25px;
+      font-size: 14px;
+      display: table;
+    }
+
+    .currentscore {
+      width: 50%;
+      //float: left;
+      text-align: center;
+      padding: 10px 0;
+      -webkit-box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+      -moz-box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+      box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+      position: relative;
+      font-weight: bold;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+
+  .flag {
+    border-style: solid;
+    border-width: 12px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    top: 25%;
+    -webkit-box-shadow: inset -5px 0px 2px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset -5px 0px 2px 0px rgba(0,0,0,0.1);
+    box-shadow: inset -5px 0px 2px 0px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+  }
+
+  .team1colour .flag {
+    left: -40px;
+  }
+
+  .team2colour .flag {
+    right: -40px;
+  }
+
+  &.strokeboard {
+    .golfround {
+      .currentscore {
+        float: right;
+        padding: 15px 10px;
+        width: 15%;
+        text-align: center;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+      }
+      .players {
+        width: 30%;
+
+        .playername {
+          width: 100%;
+        }
+
+        .playername:nth-child(2) {
+          display: none;
+        }
+      }
+      .headers {
+        border-bottom: 1px solid #bbb;
+        float: left;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  #totalscores {
+    width: 100%;
+  }
+  .playername {
+    width: 25%;
+    float: none;
+    padding: 10px 0;
+    display: table-cell;
+  }
+  .alignright {
+    text-align: right;
+    margin: 0;
+  }
+  #refresh {
+    background: url(../images/refresh.png) center top no-repeat;
+    padding: 25px 0 0;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  h4.card {
+    padding: 10px 0;
+    float: left;
+    border-bottom: 1px solid #bbb;
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .headers .currentscore {
+    margin: 0;
+    padding: 5px 1%;
+    font-weight: bold;
+  }
+}
+#leaderboardheader {
+  float: left;
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+  border-top: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  line-height: 25px;
+
+  .team1colour, .team2colour {
+    float: left;
+    width: 50%;
+    position: relative;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    box-sizing: border-box;
+
+    .flag {
+      color: #fff;
+      width: 75px;
+
+      span {
+        position: absolute;
+        top: -9px;
+        font-size: 18px;
+        line-height: 18px;
+      }
+    }
+  }
+  
+  .team1colour {
+    text-align: right;
+    padding-right: 85px;
+    border-right: 1px solid transparent;
+    
+    .flag {
+      right: 0;
+      left: auto;
+
+      span {
+        right: 0;
+      }
+    }
+
+  }
+
+  .team2colour {
+    text-align: left;
+    padding-left: 85px;
+    
+    .flag {
+      left: 0;
+
+      span {
+        left: 0;
+      }
+    }
+
+  }
+
+  .players {
+    float: left;
+    padding: 10px 1%;
+  }
+}
+#leaderboard-wrapper {
+  width: 100%;
+  float: left;
+  h2 {
+    text-align: center;
+    margin-top: 10px;
+    width: 99%;
+  }
+}
+.stroke-quantity {
+  min-width: 150px;
+  height: 42px;
+  clear: both;
+  display: table-cell;
+}
+.stroke-minus {
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  background: url(../images/minus.png) center center no-repeat;
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.stroke-input {
+  input {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    float: left;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 16px;
+  }
+  input[type="text"] {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    float: left;
+    text-align: center;
+    margin: 0 5px;
+    font-size: 16px;
+  }
+}
+.stroke-plus {
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  background: url(../images/plus.png) center center no-repeat;
+  a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+@media only screen and(max-width : 768px) {
+  .scorecard {
+    width: 80%;
+  }
+}
+@media only screen and(max-width : 480px) {
+  #leaderboard {
+    font-size: 12px;
+    
+    .golfround {
+      .headers .currentscore {
+        padding: 5px 1%;
+      }
+
+      .currentscore {
+        width: 40%;
+      }
+    }
+
+    .flag {
+      border-width: 8px;
+      width: 24px;
+    }
+    .team1colour {
+      padding-right: 70px;
+
+      .flag {
+        left: -24px;
+      }
+    }
+    .team2colour {
+      padding-left: 70px;
+
+      .flag {
+        right: -24px;
+      }
+    }
+    
+    .playername {
+      width: 28%;
+      padding: 0 1%;
+    }
+
+    .scorecard { 
+      .holenumber {
+        padding: 5% 0;
+      }
+    }
+
+    &.strokeboard .golfround .headers .currentscore {
+      padding: 5px;
+    }
+  }
+
+  #leaderboardheader {
+    .team1colour {
+      .flag {
+        right: 0;
+        left: auto;
+      }
+    }
+
+    .team1colour, .team2colour {
+      .flag {
+        border-width: 12px;
+        width: 60px;
+      }
+    }
+  }
+}
+.single-tournament .entry-content {
+  margin-bottom: 20px;
+
+  #social-shares {
+    margin: 20px 0;
+    min-height: 32px;
+
+    p {
+      float: left;
+      margin: 8px 10px 0 0;
+    }
+
+    a.facebook-share-button {
+      width: 31px;
+      height: 32px;
+      background: url('../images/icon-facebook.png') left top no-repeat;
+      float: left;
+      margin: 0 10px 0 0;
+    }
+
+    a.twitter-share-button {
+      width: 31px;
+      height: 32px;
+      background: url('../images/icon-twitter.png') left top no-repeat;
+      float: left;
+    }
+  }
+}

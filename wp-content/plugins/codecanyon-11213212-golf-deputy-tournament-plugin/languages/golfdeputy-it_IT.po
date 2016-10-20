@@ -1,0 +1,624 @@
+# English translations for Golf Deputy.
+# Copyright (C) 2016 Golf Deputy.
+# This file is distributed under the same license as the GolfDeputy plugin.
+# Want to include your translations in a future version? Email support@golfdeputy.com.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Golf Deputy 1.3\n"
+"Report-Msgid-Bugs-To: support@golfdeputy.com\n"
+"POT-Creation-Date: 2016-09-27 14:06-0400\n"
+"PO-Revision-Date: 2016-09-27 14:09-0400\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#: golf-deputy.php
+msgid ""
+"A golf tournament plugin, allowing users to input live scores on the front-"
+"end and track entire tournaments."
+msgstr ""
+"Un plugin torneo di golf, che consente agli utenti di inserire i risultati "
+"in diretta sul front-end e tenere traccia di interi tornei."
+
+#: card-match.php card-stroke.php content-area.php advertising.php
+msgid "Hole"
+msgstr "Foro"
+
+#: card-match.php card-stroke.php
+msgid "Par"
+msgstr "Par"
+
+#: content-area.php
+msgid "Score for Hole #"
+msgstr "Punteggio per Hole #"
+
+#: content-area.php
+msgid "metres"
+msgstr "metri"
+
+#: content-area.php
+msgid "yards"
+msgstr "cantieri"
+
+#: content-area.php
+msgid "This player has completed this round:"
+msgstr "Questo giocatore ha completato questo round:"
+
+#: content-area.php
+msgid "Reopen Round (selected hole will be cleared)"
+msgstr "Riaprire Round (foro selezionato verrà cancellato)"
+
+#: content-area.php single-tournament.php
+msgid "vs"
+msgstr "vs"
+
+#: content-area.php
+msgid "This matchup has completed:"
+msgstr "Questo matchup ha completato:"
+
+#: content-area.php
+msgid "Reopen Matchup (selected hole will be cleared)"
+msgstr "Riaprire Matchup (foro selezionato verrà cancellato)"
+
+#: content-area.php
+msgid "win"
+msgstr "vincere"
+
+#: content-area.php scoring-match.php
+msgid "Halved"
+msgstr "dimezzato"
+
+#: content-area.php
+msgid "Clear hole"
+msgstr "Cancella buco"
+
+#: content-area.php
+msgid "Nothing selected. Try again."
+msgstr "Niente selezionato. Riprova."
+
+#: front-end.php
+msgid "Tournament Information"
+msgstr "Informazioni torneo"
+
+#: front-end.php
+msgid "Rounds and Player Information"
+msgstr "Tornate e informazioni Player"
+
+#: front-end.php
+msgid "Sponsors / Advertising"
+msgstr "Sponsor / Pubblicità"
+
+#: front-end.php
+msgid "Course Information"
+msgstr "Informazioni sul corso"
+
+#: front-end.php
+msgid "Hole Information"
+msgstr "Informazioni Hole"
+
+#: front-end.php
+msgid "Enter tournament name"
+msgstr "Inserire il nome del torneo"
+
+#: front-end.php
+msgid "Enter course name"
+msgstr "Inserire nome del corso"
+
+#: leaderboard-match.php leaderboard-stroke.php
+msgid "Auto-refresh in"
+msgstr "Auto-aggiornamento in"
+
+#: leaderboard-match.php leaderboard-stroke.php
+msgid "seconds"
+msgstr "secondi"
+
+#: leaderboard-stroke.php
+msgid "Overall"
+msgstr "Complessivamente"
+
+#: leaderboard-stroke.php
+msgid "Thru"
+msgstr "Thru"
+
+#: leaderboard-stroke.php
+msgid "Today"
+msgstr "Oggi"
+
+#: leaderboard-stroke.php
+msgid "E"
+msgstr "anche"
+
+#: leaderboard-stroke.php
+msgid "F"
+msgstr "F"
+
+#: scoring-match.php
+msgid " up "
+msgstr " su "
+
+#: scoring-match.php
+msgid " thru "
+msgstr " attraverso "
+
+#: scoring-match.php
+msgid "All Square"
+msgstr "tutto Piazza"
+
+#: scoring-match.php
+msgid " wins "
+msgstr " vittorie "
+
+#: scoring-match.php
+msgid " and "
+msgstr " e "
+
+#: single-tournament.php
+msgid "Go Back"
+msgstr "Torna indietro"
+
+#: single-tournament.php
+msgid "Select the player(s) to score for:"
+msgstr "Selezionare il lettore (s) di segnare per:"
+
+#: single-tournament.php
+msgid "Select the matchup(s) to score for:"
+msgstr "Selezionare il matchup (s) di segnare per:"
+
+#: single-tournament.php
+msgid "Score for Selected Players"
+msgstr "Nota per i giocatori selezionati"
+
+#: single-tournament.php
+msgid "Watch The Leaderboard"
+msgstr "Guarda la classifica"
+
+#: single-tournament.php
+msgid "PIN is incorrect."
+msgstr "PIN non è corretto."
+
+#: single-tournament.php
+msgid "Tournament or Player PIN:"
+msgstr "Torneo o PIN giocatore:"
+
+#: single-tournament.php
+msgid "No players added yet."
+msgstr "Nessun giocatore ancora aggiunto."
+
+#: advertising.php
+msgid ""
+"A consistent image size across all holes is recommended. All images will be "
+"automatically resized to fit the screen."
+msgstr ""
+"Si raccomanda un formato immagine coerente in tutti i fori. Tutte le "
+"immagini saranno ridimensionate automaticamente per adattarsi allo schermo."
+
+#: advertising.php
+msgid "Sponsor"
+msgstr "Sponsor"
+
+#: advertising.php
+msgid "Choose or Upload an Image"
+msgstr "Scegli o carica un'immagine"
+
+#: advertising.php
+msgid "Remove Image"
+msgstr "rimuovere Immagine"
+
+#: advertising.php
+msgid "Use This Image"
+msgstr "Utilizzare questa immagine"
+
+#: golf-course.php
+msgid "Address:"
+msgstr "Indirizzo:"
+
+#: golf-course.php
+msgid "City:"
+msgstr "Città:"
+
+#: golf-course.php
+msgid "State/Province:"
+msgstr "Stato / Provincia:"
+
+#: golf-course.php
+msgid "Phone:"
+msgstr "Telefono:"
+
+#: golf-course.php
+msgid "Tee Name:"
+msgstr "Tee Nome:"
+
+#: import-csv.php
+msgid "CSV imported."
+msgstr "CSV importato."
+
+#: import-csv.php
+msgid "Error: "
+msgstr "Errore: "
+
+#: register-cpt.php
+msgid "Tournaments"
+msgstr "tornei"
+
+#: register-cpt.php
+msgid "Tournament"
+msgstr "Torneo"
+
+#: register-cpt.php
+msgid "Golf Deputy"
+msgstr ""
+
+#: register-cpt.php
+msgid "Add New Tournament"
+msgstr "Aggiungi nuovo torneo"
+
+#: register-cpt.php
+msgid "New Tournament"
+msgstr "Nuovo torneo"
+
+#: register-cpt.php
+msgid "Edit Tournament"
+msgstr "Modifica del torneo"
+
+#: register-cpt.php
+msgid "View Tournament"
+msgstr "View Tournament"
+
+#: register-cpt.php
+msgid "All Tournaments"
+msgstr "tutti i tornei"
+
+#: register-cpt.php
+msgid "Search Tournaments"
+msgstr "Tornei di ricerca"
+
+#: register-cpt.php
+msgid "Parent Tournament:"
+msgstr "Torneo principale:"
+
+#: register-cpt.php
+msgid "No tournament found."
+msgstr "Nessun torneo trovato."
+
+#: register-cpt.php
+msgid "No tournament found in Trash."
+msgstr "Nessun torneo trovato nel Cestino."
+
+#: register-cpt.php
+msgid "Golf Courses"
+msgstr "Campi da golf"
+
+#: register-cpt.php tournament-information.php
+msgid "Golf Course"
+msgstr "Corso di golf"
+
+#: register-cpt.php settings.php
+msgid "Add New Course"
+msgstr "Aggiungere nuovo corso"
+
+#: register-cpt.php
+msgid "New Course"
+msgstr "Nuovo Corso"
+
+#: register-cpt.php
+msgid "Edit Course"
+msgstr "Modifica del corso"
+
+#: register-cpt.php
+msgid "View Course"
+msgstr "vista Corso"
+
+#: register-cpt.php
+msgid "All Courses"
+msgstr "tutti i corsi"
+
+#: register-cpt.php
+msgid "Search Courses"
+msgstr "Cerca Corsi"
+
+#: register-cpt.php
+msgid "Parent Course:"
+msgstr "Corso principale:"
+
+#: register-cpt.php
+msgid "No courses found."
+msgstr "Nessun corso trovato."
+
+#: register-cpt.php
+msgid "No courses found in Trash."
+msgstr "Nessun corso trovato nel Cestino."
+
+#: register-cpt.php
+msgid "Course Name"
+msgstr "Nome del corso"
+
+#: register-cpt.php
+msgid "Tee Name"
+msgstr "Nome Tee"
+
+#: register-cpt.php
+msgid "Date"
+msgstr "Data"
+
+#: settings.php
+msgid "Team 1 Colour"
+msgstr "Team 1 Colore"
+
+#: settings.php
+msgid "Team 2 Colour"
+msgstr "Team 2 Colour"
+
+#: settings.php
+msgid "Stroke Play Leaderboard Settings"
+msgstr "Stroke Play Impostazioni Classifica"
+
+#: settings.php
+msgid "Below Par Colour"
+msgstr "Sotto Par Colore"
+
+#: settings.php
+msgid "General Settings"
+msgstr "impostazioni generali"
+
+#: settings.php
+msgid "Custom CSS"
+msgstr "CSS personalizzato"
+
+#: settings.php
+msgid "The options for Golf Deputy."
+msgstr "Le opzioni per Golf Vice."
+
+#: settings.php
+msgid "Golf Deputy Settings"
+msgstr "Golf Deputy Impostazioni"
+
+#: settings.php
+msgid "Settings"
+msgstr "Ajustes"
+
+#: tournament-information.php
+msgid "Tournament PIN: "
+msgstr "PIN del torneo: "
+
+#: tournament-information.php
+msgid "Scoring System: "
+msgstr "Sistema di punteggio: "
+
+#: tournament-information.php
+msgid "Strokes"
+msgstr "Strokes"
+
+#: tournament-information.php
+msgid "Match Play"
+msgstr "match Play"
+
+#: tournament-information.php
+msgid "Stableford"
+msgstr "Stableford"
+
+#: tournament-information.php
+msgid "Scoring Type:"
+msgstr "Scoring Tipo:"
+
+#: tournament-information.php
+msgid "Individual"
+msgstr "Individuale"
+
+#: tournament-information.php
+msgid "Team (e.g. Scramble)"
+msgstr "Team (ad es Scramble)"
+
+#: tournament-information.php
+msgid "Individual (0 teams)"
+msgstr "Individuali (0 squadre)"
+
+#: tournament-information.php
+msgid "Team (2 teams)"
+msgstr "Team (2 squadre)"
+
+#: tournament-information.php
+msgid "Team 1 Name: "
+msgstr "Squadra 1 Nome: "
+
+#: tournament-information.php
+msgid "Team 2 Name: "
+msgstr "Team 2 Nome: "
+
+#: tournament-information.php
+msgid "Leaderboard Shortcode: "
+msgstr "Shortcode Classifica: "
+
+#: tournament-information.php
+msgid "Save A Draft or Publish first"
+msgstr "Salvare una bozza o pubblicare prima"
+
+#: tournament-information.php
+msgid "Import Player List (CSV)"
+msgstr "Importa Calciatori (CSV)"
+
+#: tournament-information.php
+msgid "Choose your file: "
+msgstr "Scegliere il file: "
+
+#: tournament-information.php
+msgid "Import"
+msgstr "Importare"
+
+#: tournament-information.php
+msgid "Save the tournament (as Draft or Publish) to enable CSV import"
+msgstr ""
+"Salvare il torneo (come bozza o pubblicare) per consentire l'importazione CSV"
+
+#: tournament-information.php
+msgid "No courses created."
+msgstr "Nessun corso creato."
+
+#: tournament-information.php
+msgid "Select A Course"
+msgstr "Selezionare un corso"
+
+#: tournament-information.php
+msgid "Tee"
+msgstr "Tee"
+
+#: tournament-information.php
+msgid "Players"
+msgstr "Giocatori"
+
+#: tournament-information.php
+msgid "Same As Round 1 Player"
+msgstr "Stessi Round 1 Player"
+
+#: tournament-information.php
+msgid "Remove"
+msgstr "Cancella"
+
+#: tournament-information.php
+msgid "Add Player"
+msgstr "Aggiungere Player"
+
+#: tournament-information.php
+msgid "Team 1 Players"
+msgstr "Team 1 giocatori"
+
+#: tournament-information.php
+msgid "Team 2 Players"
+msgstr "Squadra 2 giocatori"
+
+#: tournament-information.php
+msgid "Add Players"
+msgstr "Aggiungi giocatori"
+
+#: tournament-information.php
+msgid "Win Points"
+msgstr "Punti Win"
+
+#: tournament-information.php
+msgid "Round 1"
+msgstr "Turno 1"
+
+#: tournament-information.php
+msgid "Add Round"
+msgstr "Aggiungere rotonda"
+
+#: tournament-information.php
+msgid "Remove Round"
+msgstr "rimuovere rotonda"
+
+#: tournament-information.php
+msgid "Player PIN"
+msgstr "Giocatore PIN"
+
+#: tournament-information.php
+msgid "Player PIN: "
+msgstr "Giocatore PIN :"
+
+#: tournament-information.php
+msgid "Match PIN"
+msgstr "Partita PIN"
+
+#: tournament-information.php
+msgid "Generate Player PINs"
+msgstr "Generare PIN giocatore"
+
+#: golf-course.php
+msgid "Handicap Label:"
+msgstr "Etichetta di handicap:"
+
+#: golf-course.php tournament-information.php
+msgid "Handicap"
+msgstr "Handicap"
+
+#: golf-course.php
+msgid "Stroke Index"
+msgstr "Indice di ictus"
+
+#: golf-course.php
+msgid "None"
+msgstr "Nessuna"
+
+#: content-area.php
+msgid "Gross Score"
+msgstr "Punteggio Totale"
+
+#: content-area.php
+msgid "Net Score"
+msgstr "Punteggio netto"
+
+#: content-area.php
+msgid "No Score"
+msgstr "Nessun punteggio"
+
+#: card-stroke.php
+msgid "Gross"
+msgstr "Totale"
+
+#: card-stroke.php
+msgid "Net"
+msgstr "Netto"
+
+#: card-stroke.php
+msgid "Score"
+msgstr "Punto"
+
+#: card-stableford.php
+msgid "Points"
+msgstr "Punti"
+
+msgid "Golfers"
+msgstr "Gli amanti del golf"
+
+msgid "Golfer"
+msgstr "Giocatore"
+
+msgid "Add New Golfer"
+msgstr "Nuovo Golfista"
+
+msgid "New Golfer"
+msgstr "Nuovo Golfista"
+
+msgid "Edit Golfer"
+msgstr "Modifica Golfista"
+
+msgid "View Golfer"
+msgstr "Vista Golfer"
+
+msgid "All Golfers"
+msgstr "tutti i giocatori di golf"
+
+msgid "Search Golfers"
+msgstr "Ricerca golfisti"
+
+msgid "Parent Golfer:"
+msgstr "Genitore Golfista:"
+
+msgid "No golfers found."
+msgstr "Nessun golfisti trovato."
+
+msgid "No golfers found in Trash."
+msgstr "Nessun golfisti trovano nel Cestino."
+
+msgid "Golfer Information"
+msgstr "golfista Informazioni"
+
+msgid "Tournaments Played"
+msgstr "Tornei giocati"
+
+msgid "Enter golfer name"
+msgstr "Inserire il nome golfista"
+
+msgid "OR"
+msgstr "O"
+
+msgid "Biography / Additional Information"
+msgstr "Biografia / Informazioni aggiuntive"
+
+#~ msgid "Tournament PIN:"
+#~ msgstr "PIN del torneo:"

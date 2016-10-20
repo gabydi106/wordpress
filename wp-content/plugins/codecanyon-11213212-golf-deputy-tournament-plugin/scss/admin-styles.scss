@@ -1,0 +1,131 @@
+/* Admin Styles */
+
+#golf_match_info {
+  label {
+    width: 25%;
+    float: left;
+    padding-top: 6px;
+    clear: left;
+  }
+  input {
+    width: 35%;
+  }
+  #pin {
+    width: 100px;
+  }
+}
+#golf_course_info {
+  label {
+    width: 25%;
+    float: left;
+    padding-top: 6px;
+    clear: left;
+  }
+  input {
+    width: 35%;
+  }
+  #measurementyards, #measurementmetres, #handicaphandicap, #handicapstrokeindex, #handicapnone {
+    width: auto;
+  }
+
+  label[for=measurementyards], label[for=measurementmetres] {
+    float: none;
+    margin: 3px 20px 0 0;
+  }
+  label[for=handicaphandicap], label[for=handicapstrokeindex], label[for=handicapnone] {
+    float: none;
+    margin: 10px 20px 0 0;
+  }
+
+  #handicap-wrapper {
+    padding-top: 10px;
+
+    label:first-child {
+        margin-top: -3px;
+    }
+  }
+}
+#golfer_info {
+  label {
+    width: 25%;
+    float: left;
+    padding-top: 6px;
+    clear: left;
+  }
+  input[type="number"] {
+    width: 50px;
+  }
+  textarea {
+    width: 35%;
+  }
+}
+.multi-field-wrapper {
+    clear: both;
+}
+#sponsors {
+  p {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0 15px;
+    img {
+      margin: 10px 0 0;
+    }
+  }
+  .sponsor-title {
+    width: 25%;
+    float: left;
+  }
+}
+#golf_course_holes {
+  float: left;
+  width: 100%;
+}
+#teeinfo {
+  label.teename {
+    width: 15%;
+    float: left;
+    padding-top: 6px;
+  }
+  input.teename {
+    width: 35%;
+  }
+}
+#teeinputs {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  .hole {
+    width: 70px;
+    float: left;
+    margin: 0 5px 30px 0;
+    text-align: center;
+    label {
+      font-size: 10px;
+    }
+  }
+  .hole-yards {
+    width: 50px;
+  }
+  .hole-par {
+    width: 50px;
+  }
+  .hole-handicap {
+    width: 50px;
+  }
+}
+@media only screen and(max-width : 1200px) {
+  #golf_match_info, #golf_course_info, #golfer_info {
+    label {
+      width: 40%;
+    }
+    input {
+      width: 55%;
+    }
+  }
+}
+#adminmenu #menu-posts-tournament div.wp-menu-image:before {
+  content: "\f227";
+}
+.golfround .winpoints {
+  min-width: 15%;
+  display: inline-block;
+}

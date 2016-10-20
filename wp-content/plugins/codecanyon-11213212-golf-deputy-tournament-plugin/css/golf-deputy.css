@@ -1,0 +1,743 @@
+/* line 1, ../scss/golf-deputy.scss */
+#pinerror {
+  float: left;
+  width: 100%;
+  background-color: #fea0a0;
+  padding: 10px;
+}
+
+/* line 7, ../scss/golf-deputy.scss */
+#tournament-title {
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  padding: 5px 0;
+}
+
+/* line 14, ../scss/golf-deputy.scss */
+.multi-field {
+  width: 100%;
+  margin: 5px 0;
+}
+
+/* line 18, ../scss/golf-deputy.scss */
+#roundselect {
+  font-size: 16px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+/* line 23, ../scss/golf-deputy.scss */
+.golfround {
+  display: none;
+  margin: 0;
+}
+/* line 26, ../scss/golf-deputy.scss */
+.golfround input {
+  min-width: 25px;
+  min-height: 25px;
+  margin: 0 1% 15px 0;
+  vertical-align: text-top;
+  margin-top: -5px;
+}
+/* line 33, ../scss/golf-deputy.scss */
+.golfround label {
+  margin-right: 5%;
+}
+
+/* line 38, ../scss/golf-deputy.scss */
+.single-golfcourse .hole {
+  width: 10%;
+  float: left;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* line 44, ../scss/golf-deputy.scss */
+.single-golfcourse .hole:last-child, .single-golfcourse .hole:nth-child(10) {
+  border-right: 1px solid #ccc;
+}
+/* line 47, ../scss/golf-deputy.scss */
+.single-golfcourse .hole span {
+  line-height: 32px;
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+/* line 55, ../scss/golf-deputy.scss */
+.single-golfcourse .hole.labels {
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+/* line 60, ../scss/golf-deputy.scss */
+.matchupsave {
+  padding: 15px 10px 10px 15px;
+  border-top: 3px solid #bbb;
+}
+/* line 63, ../scss/golf-deputy.scss */
+.matchupsave input {
+  min-width: 25px;
+  min-height: 25px;
+  margin: 0 1% 15px 0;
+  vertical-align: text-top;
+}
+/* line 69, ../scss/golf-deputy.scss */
+.matchupsave label {
+  margin-right: 5%;
+}
+/* line 72, ../scss/golf-deputy.scss */
+.matchupsave:nth-child(even) {
+  background-color: #eee;
+}
+/* line 75, ../scss/golf-deputy.scss */
+.matchupsave .players {
+  width: 100%;
+  float: left;
+  margin: 0 0 20px 0;
+}
+/* line 80, ../scss/golf-deputy.scss */
+.matchupsave .grossscore {
+  font-size: 10px;
+  padding: 5px 0;
+}
+/* line 84, ../scss/golf-deputy.scss */
+.matchupsave .netscore {
+  font-size: 10px;
+  font-weight: bold;
+  clear: both;
+  padding: 10px 0 0 0;
+}
+/* line 90, ../scss/golf-deputy.scss */
+.matchupsave .netscore input {
+  background: none;
+  border: none;
+  margin: 0;
+  vertical-align: inherit;
+  font-size: 10px;
+  box-shadow: none;
+  width: 50px;
+}
+
+/* line 101, ../scss/golf-deputy.scss */
+#holenumber {
+  min-width: 25px;
+  min-height: 25px;
+  margin: 0 1% 15px 0;
+  vertical-align: text-top;
+  min-width: 50px;
+  font-size: 16px;
+  margin-top: -5px;
+}
+
+/* line 110, ../scss/golf-deputy.scss */
+.teamname {
+  font-weight: bold;
+}
+
+/* line 113, ../scss/golf-deputy.scss */
+.versus {
+  font-style: italic;
+}
+
+/* line 116, ../scss/golf-deputy.scss */
+#matchupselect {
+  position: relative;
+}
+/* line 118, ../scss/golf-deputy.scss */
+#matchupselect #pass {
+  font-size: 16px;
+  padding: 5px;
+  margin-left: 5px;
+}
+/* line 123, ../scss/golf-deputy.scss */
+#matchupselect #submit {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* line 129, ../scss/golf-deputy.scss */
+#watchleaderboard {
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* line 133, ../scss/golf-deputy.scss */
+#round1 {
+  display: block;
+}
+
+/* line 136, ../scss/golf-deputy.scss */
+.sponsorimage {
+  margin: 0 0 10px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 141, ../scss/golf-deputy.scss */
+#savehole {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px 0 0 15px;
+}
+
+/* line 146, ../scss/golf-deputy.scss */
+#stopscoring {
+  margin-left: 15px;
+}
+
+/* line 149, ../scss/golf-deputy.scss */
+.closedmatchup {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 15px 10px 10px;
+  margin-left: -15px;
+}
+
+/* line 157, ../scss/golf-deputy.scss */
+input.reopen {
+  width: auto;
+  font-size: 12px;
+  height: auto;
+  margin: 0 1% 0 0;
+  padding: 5px;
+}
+/* line 164, ../scss/golf-deputy.scss */
+input#backbutton {
+  padding: 10px;
+  font-size: 16px;
+  float: left;
+  margin: 10px 0;
+  clear: both;
+}
+
+/* line 172, ../scss/golf-deputy.scss */
+.small {
+  font-size: 10px;
+}
+
+/* line 175, ../scss/golf-deputy.scss */
+#resetplayers {
+  margin: 20px 0 0;
+  border-bottom: 3px solid #bbb;
+  padding-bottom: 20px;
+}
+
+/* line 180, ../scss/golf-deputy.scss */
+#leaderboard {
+  width: 99%;
+  float: left;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+/* line 186, ../scss/golf-deputy.scss */
+#leaderboard .scorecard {
+  display: none;
+  width: 100%;
+  float: left;
+}
+/* line 191, ../scss/golf-deputy.scss */
+#leaderboard .scorecard #names {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* line 195, ../scss/golf-deputy.scss */
+#leaderboard .scorecard .holecard {
+  width: 5.5%;
+  float: left;
+  text-align: center;
+  margin-bottom: 10px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+/* line 203, ../scss/golf-deputy.scss */
+#leaderboard .scorecard .holecard.header {
+  clear: both;
+}
+/* line 207, ../scss/golf-deputy.scss */
+#leaderboard .scorecard .holenumber {
+  float: left;
+  border-top: 1px solid #ddd;
+  padding: 5% 2%;
+  width: 100%;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #ddd;
+}
+/* line 216, ../scss/golf-deputy.scss */
+#leaderboard .scorecard .holepar {
+  float: left;
+  border-right: 1px solid #ddd;
+  padding: 5% 2%;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  background-color: #efefef;
+}
+/* line 224, ../scss/golf-deputy.scss */
+#leaderboard .scorecard .holescore {
+  float: left;
+  padding: 5% 2%;
+  width: 100%;
+  border-right: 1px solid #ddd;
+}
+/* line 230, ../scss/golf-deputy.scss */
+#leaderboard .scorecard .holescore .eagle {
+  border-radius: 50%;
+  border: 1px solid #999;
+  padding: 0 5px;
+  position: relative;
+}
+/* line 236, ../scss/golf-deputy.scss */
+#leaderboard .scorecard .holescore .eagle:before {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: -3px;
+  top: -3px;
+  border-radius: 50%;
+  border: 1px solid #999;
+  padding: 2px;
+  height: 100%;
+}
+/* line 249, ../scss/golf-deputy.scss */
+#leaderboard .scorecard .holescore .birdie {
+  border-radius: 50%;
+  border: 1px solid #999;
+  padding: 0 5px;
+}
+/* line 255, ../scss/golf-deputy.scss */
+#leaderboard .scorecard .holescore .bogey {
+  border: 1px solid #999;
+  padding: 0 5px;
+}
+/* line 260, ../scss/golf-deputy.scss */
+#leaderboard .scorecard .holescore .doublebogey {
+  border: 1px solid #999;
+  padding: 0 5px;
+  position: relative;
+}
+/* line 265, ../scss/golf-deputy.scss */
+#leaderboard .scorecard .holescore .doublebogey:before {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: -3px;
+  top: -3px;
+  border: 1px solid #999;
+  padding: 2px;
+  height: 100%;
+}
+/* line 280, ../scss/golf-deputy.scss */
+#leaderboard #roundselect {
+  width: auto;
+}
+/* line 284, ../scss/golf-deputy.scss */
+#leaderboard .golfround {
+  width: 100%;
+  border: 1px solid #bbb;
+  float: left;
+  display: block;
+}
+/* line 290, ../scss/golf-deputy.scss */
+#leaderboard .golfround .multi-field {
+  width: 100%;
+  clear: left;
+  border-bottom: 1px solid #bbb;
+  float: left;
+  margin: 0;
+  overflow: hidden;
+  display: table-cell;
+}
+/* line 299, ../scss/golf-deputy.scss */
+#leaderboard .golfround .multi-field:hover {
+  cursor: pointer;
+}
+/* line 303, ../scss/golf-deputy.scss */
+#leaderboard .golfround .multi-field:last-child {
+  border-bottom: none;
+}
+/* line 311, ../scss/golf-deputy.scss */
+#leaderboard .golfround .multi-field:nth-child(even) {
+  background-color: #f9f9f9;
+}
+/* line 315, ../scss/golf-deputy.scss */
+#leaderboard .golfround .multi-field.active {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+/* line 320, ../scss/golf-deputy.scss */
+#leaderboard .golfround .multi-field.active .players {
+  font-weight: bold;
+}
+/* line 323, ../scss/golf-deputy.scss */
+#leaderboard .golfround .multi-field.active .players .currentscore {
+  box-shadow: none;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+}
+/* line 332, ../scss/golf-deputy.scss */
+#leaderboard .golfround .players {
+  float: left;
+  padding: 0px 1%;
+  width: 98%;
+  line-height: 25px;
+  font-size: 14px;
+  display: table;
+}
+/* line 341, ../scss/golf-deputy.scss */
+#leaderboard .golfround .currentscore {
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+  -webkit-box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 356, ../scss/golf-deputy.scss */
+#leaderboard .flag {
+  border-style: solid;
+  border-width: 12px;
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  width: 40px;
+  top: 25%;
+  -webkit-box-shadow: inset -5px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset -5px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset -5px 0px 2px 0px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+/* line 370, ../scss/golf-deputy.scss */
+#leaderboard .team1colour .flag {
+  left: -40px;
+}
+/* line 374, ../scss/golf-deputy.scss */
+#leaderboard .team2colour .flag {
+  right: -40px;
+}
+/* line 380, ../scss/golf-deputy.scss */
+#leaderboard.strokeboard .golfround .currentscore {
+  float: right;
+  padding: 15px 10px;
+  width: 15%;
+  text-align: center;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 389, ../scss/golf-deputy.scss */
+#leaderboard.strokeboard .golfround .players {
+  width: 30%;
+}
+/* line 392, ../scss/golf-deputy.scss */
+#leaderboard.strokeboard .golfround .players .playername {
+  width: 100%;
+}
+/* line 396, ../scss/golf-deputy.scss */
+#leaderboard.strokeboard .golfround .players .playername:nth-child(2) {
+  display: none;
+}
+/* line 400, ../scss/golf-deputy.scss */
+#leaderboard.strokeboard .golfround .headers {
+  border-bottom: 1px solid #bbb;
+  float: left;
+  width: 100%;
+  height: auto;
+}
+/* line 408, ../scss/golf-deputy.scss */
+#leaderboard #totalscores {
+  width: 100%;
+}
+/* line 411, ../scss/golf-deputy.scss */
+#leaderboard .playername {
+  width: 25%;
+  float: none;
+  padding: 10px 0;
+  display: table-cell;
+}
+/* line 417, ../scss/golf-deputy.scss */
+#leaderboard .alignright {
+  text-align: right;
+  margin: 0;
+}
+/* line 421, ../scss/golf-deputy.scss */
+#leaderboard #refresh {
+  background: url(../images/refresh.png) center top no-repeat;
+  padding: 25px 0 0;
+  float: left;
+  font-size: 12px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+/* line 429, ../scss/golf-deputy.scss */
+#leaderboard #refresh:hover {
+  cursor: pointer;
+}
+/* line 433, ../scss/golf-deputy.scss */
+#leaderboard h4.card {
+  padding: 10px 0;
+  float: left;
+  border-bottom: 1px solid #bbb;
+  background-color: #f1f1f1;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+/* line 442, ../scss/golf-deputy.scss */
+#leaderboard .headers .currentscore {
+  margin: 0;
+  padding: 5px 1%;
+  font-weight: bold;
+}
+
+/* line 448, ../scss/golf-deputy.scss */
+#leaderboardheader {
+  float: left;
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+  border-top: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  line-height: 25px;
+}
+/* line 458, ../scss/golf-deputy.scss */
+#leaderboardheader .team1colour, #leaderboardheader .team2colour {
+  float: left;
+  width: 50%;
+  position: relative;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+/* line 467, ../scss/golf-deputy.scss */
+#leaderboardheader .team1colour .flag, #leaderboardheader .team2colour .flag {
+  color: #fff;
+  width: 75px;
+}
+/* line 471, ../scss/golf-deputy.scss */
+#leaderboardheader .team1colour .flag span, #leaderboardheader .team2colour .flag span {
+  position: absolute;
+  top: -9px;
+  font-size: 18px;
+  line-height: 18px;
+}
+/* line 480, ../scss/golf-deputy.scss */
+#leaderboardheader .team1colour {
+  text-align: right;
+  padding-right: 85px;
+  border-right: 1px solid transparent;
+}
+/* line 485, ../scss/golf-deputy.scss */
+#leaderboardheader .team1colour .flag {
+  right: 0;
+  left: auto;
+}
+/* line 489, ../scss/golf-deputy.scss */
+#leaderboardheader .team1colour .flag span {
+  right: 0;
+}
+/* line 496, ../scss/golf-deputy.scss */
+#leaderboardheader .team2colour {
+  text-align: left;
+  padding-left: 85px;
+}
+/* line 500, ../scss/golf-deputy.scss */
+#leaderboardheader .team2colour .flag {
+  left: 0;
+}
+/* line 503, ../scss/golf-deputy.scss */
+#leaderboardheader .team2colour .flag span {
+  left: 0;
+}
+/* line 510, ../scss/golf-deputy.scss */
+#leaderboardheader .players {
+  float: left;
+  padding: 10px 1%;
+}
+
+/* line 515, ../scss/golf-deputy.scss */
+#leaderboard-wrapper {
+  width: 100%;
+  float: left;
+}
+/* line 518, ../scss/golf-deputy.scss */
+#leaderboard-wrapper h2 {
+  text-align: center;
+  margin-top: 10px;
+  width: 99%;
+}
+
+/* line 524, ../scss/golf-deputy.scss */
+.stroke-quantity {
+  min-width: 150px;
+  height: 42px;
+  clear: both;
+  display: table-cell;
+}
+
+/* line 530, ../scss/golf-deputy.scss */
+.stroke-minus {
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  background: url(../images/minus.png) center center no-repeat;
+}
+/* line 536, ../scss/golf-deputy.scss */
+.stroke-minus a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+}
+/* line 541, ../scss/golf-deputy.scss */
+.stroke-minus a:hover {
+  cursor: pointer;
+}
+
+/* line 547, ../scss/golf-deputy.scss */
+.stroke-input input {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e1e1e1;
+  float: left;
+  text-align: center;
+  margin: 0 5px;
+  font-size: 16px;
+}
+/* line 556, ../scss/golf-deputy.scss */
+.stroke-input input[type="text"] {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e1e1e1;
+  float: left;
+  text-align: center;
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+/* line 566, ../scss/golf-deputy.scss */
+.stroke-plus {
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  background: url(../images/plus.png) center center no-repeat;
+}
+/* line 572, ../scss/golf-deputy.scss */
+.stroke-plus a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+}
+/* line 577, ../scss/golf-deputy.scss */
+.stroke-plus a:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 583, ../scss/golf-deputy.scss */
+  .scorecard {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 588, ../scss/golf-deputy.scss */
+  #leaderboard {
+    font-size: 12px;
+  }
+  /* line 592, ../scss/golf-deputy.scss */
+  #leaderboard .golfround .headers .currentscore {
+    padding: 5px 1%;
+  }
+  /* line 596, ../scss/golf-deputy.scss */
+  #leaderboard .golfround .currentscore {
+    width: 40%;
+  }
+  /* line 601, ../scss/golf-deputy.scss */
+  #leaderboard .flag {
+    border-width: 8px;
+    width: 24px;
+  }
+  /* line 605, ../scss/golf-deputy.scss */
+  #leaderboard .team1colour {
+    padding-right: 70px;
+  }
+  /* line 608, ../scss/golf-deputy.scss */
+  #leaderboard .team1colour .flag {
+    left: -24px;
+  }
+  /* line 612, ../scss/golf-deputy.scss */
+  #leaderboard .team2colour {
+    padding-left: 70px;
+  }
+  /* line 615, ../scss/golf-deputy.scss */
+  #leaderboard .team2colour .flag {
+    right: -24px;
+  }
+  /* line 620, ../scss/golf-deputy.scss */
+  #leaderboard .playername {
+    width: 28%;
+    padding: 0 1%;
+  }
+  /* line 626, ../scss/golf-deputy.scss */
+  #leaderboard .scorecard .holenumber {
+    padding: 5% 0;
+  }
+  /* line 631, ../scss/golf-deputy.scss */
+  #leaderboard.strokeboard .golfround .headers .currentscore {
+    padding: 5px;
+  }
+
+  /* line 638, ../scss/golf-deputy.scss */
+  #leaderboardheader .team1colour .flag {
+    right: 0;
+    left: auto;
+  }
+  /* line 645, ../scss/golf-deputy.scss */
+  #leaderboardheader .team1colour .flag, #leaderboardheader .team2colour .flag {
+    border-width: 12px;
+    width: 60px;
+  }
+}
+/* line 652, ../scss/golf-deputy.scss */
+.single-tournament .entry-content {
+  margin-bottom: 20px;
+}
+/* line 655, ../scss/golf-deputy.scss */
+.single-tournament .entry-content #social-shares {
+  margin: 20px 0;
+  min-height: 32px;
+}
+/* line 659, ../scss/golf-deputy.scss */
+.single-tournament .entry-content #social-shares p {
+  float: left;
+  margin: 8px 10px 0 0;
+}
+/* line 664, ../scss/golf-deputy.scss */
+.single-tournament .entry-content #social-shares a.facebook-share-button {
+  width: 31px;
+  height: 32px;
+  background: url("../images/icon-facebook.png") left top no-repeat;
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 672, ../scss/golf-deputy.scss */
+.single-tournament .entry-content #social-shares a.twitter-share-button {
+  width: 31px;
+  height: 32px;
+  background: url("../images/icon-twitter.png") left top no-repeat;
+  float: left;
+}
