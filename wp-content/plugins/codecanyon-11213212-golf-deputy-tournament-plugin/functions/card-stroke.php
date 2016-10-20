@@ -1,6 +1,8 @@
 <?php
 global $course;
 $h = 1;
+$nineHoles = 0;
+$fullGameScore = 0;
 
 // retrieves and displays score for each hole
 foreach ( $matchup as $hole => $score) {
@@ -46,13 +48,26 @@ foreach ( $matchup as $hole => $score) {
 							echo "-";
 						}?>
 						
-						<?php $fullgamescore += $score; //add game score (last line); problem -- need to reset for each new player ?>
-						<div class="holescore"> 
-							<?php echo $fullgamescore; ?>
-						</div>
+						<?php 
+						$nineHoles += $score;
+						$fullGameScore += $score;
+						if($h==9) {  //front-9 ?>
+							<div class="holescore"> 
+								<strong><?php echo $nineHoles; //print front-9 ?> </strong>
+							</div>
+						<?php $nineHoles=0; //becomes back-9
+						}
+						if($h==18) {  ?>
+							<div class="holescore"> 
+								<strong><?php echo $nineHoles; //print back-9 ?> </strong> 
+							</div>
+							<div class="holescore"> 
+								<strong><?php echo $fullGameScore; //print 18-holes ?> </strong>
+							</div>
+						<?php }?> 
 						
 					</div>
-				<?php } else { ?>
+				<?php } else { //course does not use handicap, only display net score ?>
 				<div class="holescore">
 					<?php // check if eagle, birdie, par, bogey, double bogey, add class
 					if (!empty($score)) {
